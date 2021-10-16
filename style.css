@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    height: 60px;
+    width: 100%;
+    background: rgb(178, 187, 178);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.navbar{
+    display: flex;
+}
+span{
+    display: flex;
+    position: relative;
+    right: 493px;
+    font-size: 30px;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    margin-right: -540px;
+    font-size: 19px;
+}
+.nav ol{
+    display: flex;
+    list-style: none;
+}
+.nav ol li a{
+    text-decoration: none;
+    padding: 0.2em 1.2em 0.9em 1.2em;
+    border-radius: 10px 10px 0 0;
+    color: rgb(39, 39, 39);
+    transition: all .4s;678
+    position: relative;
+    z-index: 1;
+}
+.nav ol li a:hover{
+    color: white;
+    background: rgb(36, 70, 180);
+    border-radius: 7px;  
+}
+.btn{
+    background-color: #efd4ea;
+    color: rgb(64 53 229);
+    margin-left: 121px;
+    top: 84px;
+    position: relative;
+    padding: 12px 15px;
+    border-radius: 19px;
+}
+.btn:hover{
+    transform: scale(1.2);
+    background: transparent;
+    border: 2px solid #d49750;
+    cursor: pointer;
+    transition: .4s;
+}
+.image{
+    display: flex;
+    height: 244px;
+    width: 55px;
+    bottom: 175px;
+    left: 787px;
+    position: relative;
+}
+p{
+    font-family: 'Roboto Slab', serif;
+    height: 30px;
+    width: 50%;
+    margin-top: 23px;
+    margin-left: 90px;
+    font-size: 17px;
+
+}
+h1{
+    color: #c5643d;
+    font-size: xx-large;
+    margin-top: 171px;
+    margin-left: 126px;
+}
+.container{
+    background-color: #b9a383;
+    height: 246px;
+    width: 100%;
+    margin-top: -108px;
+    justify-content: center;
+    text-align: center;
+}
+.container h1{
+    margin-left: -10px;
+}
+.container p{
+    font-family: 'Hind Madurai', sans-serif;
+    width: 58%;
+    margin-left: 239px;
+    display: flex;
+    font-size: 19px;
+}
+
+#course{
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+    margin-top: -74px;
+}
+#course .course-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(320px,1fr));
+    grid-gap: 1rem;
+    margin-top: 50px;
+}
+#course .courses{
+    text-align: start;
+    background: #f9f9ff;
+    height: 100%;
+    position: relative;
+}
+#course .courses img{
+    width: 94%;
+    height: 49%;
+    background-size: cover;
+    background-position: center;
+}
+#course .courses .details{
+    padding: 15px 15px 0 15px;
+}
+#course .courses .details i{
+    color: #fdc938;
+    font-size: .9rem;
+}
+#course .courses .cost{
+    background-color: rgb(74, 74, 136);
+    color: #fff;
+    line-height: 70px;
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    right: 50px;
+    bottom: 100px;
+}
+#reviews{
+    padding: 8vw 8vw 8vw 8vw;
+    text-align: center;
+    margin-top: -189px;
+}
+#reviews .review-box{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 1rem;
+    margin-top: 43px;
+}
+#reviews .review-box .profile{
+    background: #fafaf1;
+    padding: 30px 10px;
+    height: 439px;
+}
+#reviews .review-box .profile .star{
+    margin-top: 10px;
+}
+#reviews .review-box .profile .star i{
+    color: #fdc938;
+    font-size: .9rem;
+}
+#enroll{
+    padding: 6vw 8vw 6vw 8vw;
+    background-image: linear-gradient(rgba(99,112,168,0.5), rgb(68 61 70 / 50%)), url(bg.jpg);
+    width: 83%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#enroll h1{
+    color: #c5643d;
+    font-size: xx-large;
+    margin-top: -439px;
+    margin-left: 377px;
+}
+#enroll .form{
+    background: #fff;
+    border-radius: 22px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 138px;
+    margin-top: 57px;
+    padding: 40px;   
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+#enroll .form input{
+    margin: 15px 0;
+    padding: 15px 10px;
+    border: 1px solid rgb(84, 40, 241);
+    outline: none;
+}
+#enroll .form input::placeholder{
+    color: #413c3c;
+    font-weight: 500;
+    font-size: 0.9rem;
+
+}
+#enroll .form .btn{
+    background-color: #efd4ea;
+    color: rgb(64 53 229);
+    margin-left: 121px;
+    top: 106px;
+    right: 63px;
+    position: relative;
+    padding: 12px 15px;
+    border-radius: 19px;
+}
+#enroll .btn:hover{
+    transform: scale(1.2);
+    background: transparent;
+    border: 2px solid #d49750;
+    cursor: pointer;
+    transition: .4s;
+}
